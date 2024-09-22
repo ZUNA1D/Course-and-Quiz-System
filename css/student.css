@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.maintitle{
+    text-align:justify;
+    background-color: black;
+    color:white;
+    padding: 18px;
+    font-weight: bolder;
+
+}
+nav{
+    background-color: bisque;
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: navy;
+    margin: 0 10px;
+    text-decoration: none;
+   
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#profile {
+    background-color:#FDF8EE;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+}
+
+.profile-container {
+    gap: 20px;
+   
+}
+
+
+
+.profile-details form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200%;
+    
+}
+
+
+/* .gen-img {
+    display: flex;
+
+}
+
+.gen-img img{
+    max-width: 100%;
+    border-radius: 10px;
+} */
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Courses Section */
+#courses {
+    margin-top: 40px;
+}
+
+.course-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.course-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.course-card h3 {
+    color: #333;
+}
